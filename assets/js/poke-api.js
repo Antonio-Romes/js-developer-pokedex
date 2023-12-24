@@ -15,7 +15,7 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
     pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
 
     return pokemon
-}
+} 
 
 pokeApi.getPokemonDetail = (pokemon) => {
     return fetch(pokemon.url)

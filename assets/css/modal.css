@@ -1,0 +1,140 @@
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 0px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;  
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #faf5f5;
+    margin: auto; 
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 30%;
+    height: 90%;
+    border-radius: 1rem;  
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 0 .5rem;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #fff;
+  }
+ 
+  .modal-pokemon{ 
+    width: 100%;
+    height: 90vh; 
+    z-index: 0;
+  }
+  .modal-pokemon-header{
+    height: auto;
+    background-color: rgb(228, 203, 224);
+    border-radius: 25% 25% 42% 56% / 0% 0% 25% 25%;
+    height: 27vh;
+  }
+
+  .modal-pokemon .modal-title{
+    color: #fff;
+    padding-top: 2.5rem ;
+    padding-left: 1.5rem;
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  .modal-pokemon-img{
+    width: 100%;
+    height: 20%;  
+    bottom : 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 111111;
+    position: relative;
+    bottom: 17%;
+  }
+
+  .modal-pokemon-types{
+    width: 90%;
+    height: auto; 
+    position: relative; 
+    bottom : 15%;
+    margin: 0 auto;
+    color: #fff;
+    padding: .25rem .5rem; 
+    font-size: .8rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+
+  .modal-pokemon-types li{
+    padding: .4rem .8rem;
+    border-radius: 1rem;
+  }
+
+  .modal-pokemon-table{
+    width: 90%;
+    height: auto;
+    background-color: cadetblue;
+    position: relative; 
+    bottom : 12%;
+    margin: 0 auto;
+    padding: .5rem; 
+  }
+
+  .modal-pokemon-subtitle{
+    width: 90%;
+    height: auto; 
+    position: relative; 
+    bottom : 10%;
+    margin: 0 auto;
+    padding: .5rem; 
+    text-align: center;
+  }
+
+  .model-pokemon-evolution{
+    width: 100%;
+    height: 15%; 
+    position: relative;
+    background-color: #000;
+    bottom : 8%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .model-pokemon-evolution-img{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;  
+    padding-top: .5rem;
+  }
+
+  .margem-img-center{
+    margin: 0 2px;
+  }
+
+  .model-pokemon-evolution-img img{
+    width: 100%;
+    height: 80%;
+  }
